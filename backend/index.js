@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-mongoose.connect('')
+mongoose.connect('mongodb+srv://aman:aman@cluster0-bmpmn.mongodb.net/todo-app?retryWrites=true&w=majority')
 const cors = require('cors')
 const app = express()
 
